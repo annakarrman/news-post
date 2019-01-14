@@ -1,0 +1,20 @@
+{
+  "name": "news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "Anna Kärrman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.3",
+    "mongoose-date-format": "^1.2.0",
+    "mongoose-timestamp": "^0.6.0",
+    "nodemon": "^1.18.9"
+  }
+}
